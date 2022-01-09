@@ -240,7 +240,7 @@ DEV_USERS.add(870471128)
 DEV_USERS.add(645739169)
 DEV_USERS.add(2088106582)
 
-REDIS = StrictRedis.from_url(REDIS_URL, decode_responses=True)
+REDIS = StrictRedis.from_url(REDIS_URL, decode_responses=False)
 
 try:
 
