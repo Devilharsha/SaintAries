@@ -73,7 +73,7 @@ GROUP_START_IMG = (
 )
 
 PM_START_TEXT = """
-Hello there, [👋](https://telegra.ph/file/ac893610cae84f) I'm {}.
+Hello there, [👋](https://telegra.ph/file/13164336f33981794593e.jpg) I'm {}.
 Im Powerfull Management Bot And I Will Help In Managing Your Group.
 Maintained by : [harsha](https://t.me/harshahero)
 Founder And Dev Of : [NovusUpdates](https://t.me/NovusUpdates).
@@ -93,19 +93,19 @@ buttons = [
     [
         InlineKeyboardButton(
             text=" ➕ ｢ Summon Me 」➕ ",
-            url="t.me/idzeroid_bot?startgroup=true",
+            url="t.me/?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text=" ｢ Support 」", url="http://t.me/idzeroidsupport"),
+        InlineKeyboardButton(text=" ｢ Support 」", url="https://t.me/NovusSupport"),
         InlineKeyboardButton(text=" [❌] ", callback_data="close"),
-        InlineKeyboardButton(text=" ｢ Update 」", url="http://t.me/idzeroid"),
+        InlineKeyboardButton(text=" ｢ Update 」", url="http://t.me/NovusUpdates"),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [Saint Aries](https://telegra.ph/file/ac893610cae84f302b2da.jpg)
+*Main Commands :* [Edward Elric](https://telegra.ph/file/13164336f33981794593e.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -257,7 +257,7 @@ def start(update: Update, context: CallbackContext):
     else:
         message.reply_animation(
             GROUP_START_IMG,
-            caption="<code> Aries Online \nI am Awake Since</code>: <code>{}</code>".format(
+            caption="<cofeOnline \nI am Awake Since</code>: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
