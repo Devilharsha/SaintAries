@@ -386,7 +386,7 @@ def aries_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"*👋Hi again!  The name's {dispatcher.bot.first_name}  \n\nA powerful group management bot built to help you manage your group easily.* "
-            f"\n\n 🔥 Join [Idzeroid Syndicates](https://t.me/idzeroidsupport) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            f"\n\n 🔥 Join [https://t.me/NovusUpdates](https://t.me/NovusSupport) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\n ⚡️ 》 I can restrict users."
             f"\n\n ⚡️ 》 I can greet users with customizable welcome messages and even set a group's rules."
@@ -460,8 +460,8 @@ def aries_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*Aries Is the redisigned version of Daisy and Saitama And Othrer for the best performance.*"
-            f"\n\nAries source code was rewritten by @IdzXartez and All Of Conrtibutor For Help Aries"
-            f"\n\nIf Any Question About aries, \nLet Us Know At @Idzeroidsupport.",
+            f"\n\nAries source code was rewritten by @harshahero and All Of Conrtibutor For Help Aries"
+            f"\n\nIf Any Question About aries, \nLet Us Know At @NovusSupport.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -519,10 +519,10 @@ def aries_about_callback(update, context):
             f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
             f"\n✪ Always try to keep credits, so \n  This hardwork is done by @IdzXartez spending many sleepless nights.. So, Respect it."
             f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
-            f"\n✪ If you need to ask anything about \n  this bot, Go @Idzeroidsupport."
+            f"\n✪ If you need to ask anything about \n  this bot, Go @NovusSupport."
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
             f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
-            f"\n\nFor any kind of help, related to this bot, Join @idzeroidsupport."
+            f"\n\nFor any kind of help, related to this bot, Join @NovusSupport."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
@@ -542,7 +542,7 @@ def aries_about_callback(update, context):
             f"\n1. **first, add me to your group."
             f"\n2. **then promote me as admin and give all permissions except anonymous admin."
             f"\n3. **after promoting me, type /admincache in group to update the admin list."
-            f"\n4. **add @IdzMusic to your group."
+            f"\n4. **add @Edward_Elric_ROBOT to your group."
             f"\n5. **turn on the video chat first before start to play music.\n\n"
             f"\n📌 **if the userbot not joined to video chat, make sure if the video chat already turned on, or you can ask Admins in @idzeroidsupport.**\n"
             f"\n⚡ __Powered by Aries A.I__\n",
@@ -628,10 +628,10 @@ def get_help(update, context):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Support", url=f"https://telegram.dog/idzeroidsupport"
+                            text="Support", url=f"https://telegram.dog/NovusSupport"
                         ),
                         InlineKeyboardButton(
-                            text="Updates", url="https://telegram.dog/idzeroid"
+                            text="Updates", url="https://telegram.dog/NovusUpdates"
                         ),
                     ],
                     [
