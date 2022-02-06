@@ -76,7 +76,7 @@ PM_START_TEXT = """
 Hello there, [👋](https://telegra.ph/file/13164336f33981794593e.jpg) I'm {}.
 Im Powerfull Management Bot And I Will Help In Managing Your Group.
 Maintained by : [harsha](https://t.me/harshahero)
-Founder And Dev Of : [NovusUpdates](https://t.me/NovusUpdates).
+Founder And Dev Of : [SENKU](https://t.me/SENKUBOTS).
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 • `{}` *Users, across* `{}` *chats.*
@@ -93,13 +93,13 @@ buttons = [
     [
         InlineKeyboardButton(
             text=" ➕ ｢ Summon Me 」➕ ",
-            url="t.me/?startgroup=true",
+            url="t.me/Edward_Elric_ROBOT?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text=" ｢ Support 」", url="https://t.me/NovusSupport"),
+        InlineKeyboardButton(text=" ｢ Support 」", url="https://t.me/SENKUCHAT"),
         InlineKeyboardButton(text=" [❌] ", callback_data="close"),
-        InlineKeyboardButton(text=" ｢ Update 」", url="http://t.me/NovusUpdates"),
+        InlineKeyboardButton(text=" ｢ Update 」", url="http://t.me/SENKUBOTS"),
     ],
 ]
 
@@ -265,10 +265,10 @@ def start(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Support", url=f"https://telegram.dog/idzeroidsupport"
+                            text="Support", url=f"https://telegram.dog/SENKUCHAT"
                         ),
                         InlineKeyboardButton(
-                            text="Updates", url="https://telegram.dog/idzeroid"
+                            text="Updates", url="https://telegram.dog/SENKUBOTS"
                         ),
                     ],
                 ]
@@ -331,7 +331,7 @@ def help_button(update, context):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support", url="https://t.me/idzeroidsupport"
+                                text="Support", url="https://t.me/SENKUCHAT"
                             ),
                         ],
                     ]
@@ -386,7 +386,7 @@ def aries_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"*👋Hi again!  The name's {dispatcher.bot.first_name}  \n\nA powerful group management bot built to help you manage your group easily.* "
-            f"\n\n 🔥 Join [https://t.me/NovusUpdates](https://t.me/NovusSupport) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            f"\n\n 🔥 Join [https://t.me/SENKUBOTS](https://t.me/SENKUBOTS) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\n ⚡️ 》 I can restrict users."
             f"\n\n ⚡️ 》 I can greet users with customizable welcome messages and even set a group's rules."
@@ -461,7 +461,7 @@ def aries_about_callback(update, context):
         query.message.edit_text(
             text=f"*Aries Is the redisigned version of Daisy and Saitama And Othrer for the best performance.*"
             f"\n\nAries source code was rewritten by @harshahero and All Of Conrtibutor For Help Aries"
-            f"\n\nIf Any Question About aries, \nLet Us Know At @NovusSupport.",
+            f"\n\nIf Any Question About aries, \nLet Us Know At @SENKUCHAT.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -628,10 +628,10 @@ def get_help(update, context):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Support", url=f"https://telegram.dog/NovusSupport"
+                            text="Support", url=f"https://telegram.dog/SENKUCHAT"
                         ),
                         InlineKeyboardButton(
-                            text="Updates", url="https://telegram.dog/NovusUpdates"
+                            text="Updates", url="https://telegram.dog/SENKUBOTS"
                         ),
                     ],
                     [
