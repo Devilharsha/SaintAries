@@ -80,7 +80,7 @@ async def inline_help_func(__help__):
             input_message_content=InputTextMessageContent(
                 "Click A Button To Get Started."
             ),
-            thumb_url="https://telegra.ph/file/02fcf8117a0d6cbf5b4c6.png",
+            thumb_url="https://telegra.ph//file/163187b48ca5dd57cea71.jpg",
             reply_markup=buttons,
         ),
         InlineQueryResultArticle(
@@ -100,12 +100,12 @@ async def alive_function(answers):
     buttons = InlineKeyboard(row_width=2)
     bot_state = "Dead" if not await app.get_me() else "Alive"
     buttons.add(
-        InlineKeyboardButton("Main Bot", url="https://t.me/idzeroid_bot"),
+        InlineKeyboardButton("Main Bot", url="https://t.me/Edward_Elric_ROBOT"),
         InlineKeyboardButton("Go Inline!", switch_inline_query_current_chat=""),
     )
 
     msg = f"""
-**[Aries](https://t.me/idzeroidsupport)**
+**[](https://t.me/SENKUCHAT)**
 **MainBot:** `{bot_state}`
 **Python:** `{pyver.split()[0]}`
 **Pyrogram:** `{pyrover}`
