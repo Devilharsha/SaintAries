@@ -85,11 +85,11 @@ async def inline_help_func(__help__):
         ),
         InlineQueryResultArticle(
             title="Support",
-            description="Official Aries Support.",
+            description="Official Edward Support.",
             input_message_content=InputTextMessageContent(
-                "https://t.me/idzeroidsupport"
+                "https://t.me/SENKUCHAT"
             ),
-            thumb_url="https://telegra.ph/file/02fcf8117a0d6cbf5b4c6.png",
+            thumb_url="https://telegra.ph/file/d9374d485e6f0e9ad1c5d.jpg",
         ),
     ]
     answerss = await alive_function(answerss)
@@ -105,7 +105,7 @@ async def alive_function(answers):
     )
 
     msg = f"""
-**[](https://t.me/SENKUCHAT)**
+**[EDWARD](https://t.me/SENKUCHAT)**
 **MainBot:** `{bot_state}`
 **Python:** `{pyver.split()[0]}`
 **Pyrogram:** `{pyrover}`
