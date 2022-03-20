@@ -15,13 +15,13 @@ async def awake(event):
     ARIES += " ☬ ⌊ **Pyrogram :** __1.2.9__ ⌉\n\n"
     ARIES += " ☬ ⌊ **MongoDB :** __2.5.1__ ⌉\n\n"
     ARIES += " ☬ ⌊ **Platform :** __linux__ ⌉\n\n"
-    ARIES += " ☬ ⌊ **My Lord** : [Artezid](https://t.me/{IDZ}) ☠⌉\n\n"
+    ARIES += " ☬ ⌊ **My Lord** : [lonelykingstar](https://t.me/harshahero) ☠⌉\n\n"
     ARIES += " ☬ ⌊ **Edward Elric ** ⌉\n\n"
     ARIES += " ☬ ⌊ **TELETHON : 6.6.6 Latest** ⌉\n\n"
     ARIES += " |||| || ||| |||| || |||||| ||||| || || ||"
     BUTTON = [
         [
-            Button.url("Support", "https://t.me/SENKUCHAT"),
+            Button.url("Support", "https://t.me/thanimaisupport"),
             Button.url("Owner", "https://t.me/harshahero"),
         ]
     ]
