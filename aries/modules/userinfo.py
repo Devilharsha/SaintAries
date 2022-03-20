@@ -18,7 +18,7 @@ from telegram.ext.dispatcher import run_async
 from telegram.error import BadRequest
 from telegram.utils.helpers import escape_markdown, mention_html
     
-from ShuKurenaiXRoBot import (
+from aries import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -374,9 +374,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/shukurenai007/33"),
+                                "Support", url="https://t.me/thanimaisupport"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/shukurenai007/35")
+                                "updates", url="https://t.me/Thanimaibots")
                         ],
                     ]
                 ),
