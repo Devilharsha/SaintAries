@@ -76,7 +76,7 @@ PM_START_TEXT = """
 Hello there, [👋](https://telegra.ph/file/13164336f33981794593e.jpg) I'm {}.
 Im Powerfull Management Bot And I Will Help In Managing Your Group.
 Maintained by : [harsha](https://t.me/harshahero)
-Founder And Dev Of : [SENKU](https://t.me/SENKUBOTS).
+Founder And Dev Of : [Thanmai](https://t.me/Thanimaibots).
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 • `{}` *Users, across* `{}` *chats.*
@@ -97,9 +97,9 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text=" ｢ Support 」", url="https://t.me/SENKUCHAT"),
+        InlineKeyboardButton(text=" ｢ Support 」", url="https://t.me/thanimaisupport"),
         InlineKeyboardButton(text=" [❌] ", callback_data="close"),
-        InlineKeyboardButton(text=" ｢ Update 」", url="http://t.me/SENKUBOTS"),
+        InlineKeyboardButton(text=" ｢ Update 」", url="http://t.me/Thanimaibots"),
     ],
 ]
 
@@ -119,7 +119,7 @@ HELP_STRINGS = f"""
 
 
 DONATE_STRING = """Hello, glad to hear you want to donate!
- You can support the project via [pulsa](#) or by contacting @IdzXartez\
+ You can support the project via [pulsa](#) or by contacting @harshahero\
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -265,10 +265,10 @@ def start(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Support", url=f"https://telegram.dog/SENKUCHAT"
+                            text="Support", url=f"https://telegram.dog/thanimaisupport"
                         ),
                         InlineKeyboardButton(
-                            text="Updates", url="https://telegram.dog/SENKUBOTS"
+                            text="Updates", url="https://telegram.dog/Thanimaibots"
                         ),
                     ],
                 ]
@@ -331,7 +331,7 @@ def help_button(update, context):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support", url="https://t.me/SENKUCHAT"
+                                text="Support", url="https://t.me/thanimaisupport"
                             ),
                         ],
                     ]
@@ -386,7 +386,7 @@ def aries_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"*👋Hi again!  The name's {dispatcher.bot.first_name}  \n\nA powerful group management bot built to help you manage your group easily.* "
-            f"\n\n 🔥 Join [https://t.me/SENKUBOTS](https://t.me/SENKUBOTS) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            f"\n\n 🔥 Join [https://t.me/thanimaisupport](https://t.me/Thanimaibots) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\n ⚡️ 》 I can restrict users."
             f"\n\n ⚡️ 》 I can greet users with customizable welcome messages and even set a group's rules."
@@ -459,9 +459,9 @@ def aries_about_callback(update, context):
         )
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
-            text=f"*Aries Is the redisigned version of Daisy and Saitama And Othrer for the best performance.*"
-            f"\n\nAries source code was rewritten by @harshahero and All Of Conrtibutor For Help Aries"
-            f"\n\nIf Any Question About aries, \nLet Us Know At @SENKUCHAT.",
+            text=f"*Edward elric Is the redisigned version of Daisy and Saitama And Othrer for the best performance.*"
+            f"\n\nEdward elric source code was rewritten by @harshahero and All Of Conrtibutor For Help Aries"
+            f"\n\nIf Any Question About Edward elric, \nLet Us Know At @thanimaisupport.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -517,12 +517,12 @@ def aries_about_callback(update, context):
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
             f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
-            f"\n✪ Always try to keep credits, so \n  This hardwork is done by @IdzXartez spending many sleepless nights.. So, Respect it."
+            f"\n✪ Always try to keep credits, so \n  This hardwork is done by @harshahero spending many sleepless nights.. So, Respect it."
             f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
-            f"\n✪ If you need to ask anything about \n  this bot, Go @NovusSupport."
+            f"\n✪ If you need to ask anything about \n  this bot, Go @thanimaisupport."
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
             f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
-            f"\n\nFor any kind of help, related to this bot, Join @NovusSupport."
+            f"\n\nFor any kind of help, related to this bot, Join @thanimaisupport."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
@@ -542,10 +542,10 @@ def aries_about_callback(update, context):
             f"\n1. **first, add me to your group."
             f"\n2. **then promote me as admin and give all permissions except anonymous admin."
             f"\n3. **after promoting me, type /admincache in group to update the admin list."
-            f"\n4. **add @Edward_Elric_ROBOT to your group."
+            f"\n4. **add @Thanimaibot  to your group."
             f"\n5. **turn on the video chat first before start to play music.\n\n"
-            f"\n📌 **if the userbot not joined to video chat, make sure if the video chat already turned on, or you can ask Admins in @idzeroidsupport.**\n"
-            f"\n⚡ __Powered by Aries A.I__\n",
+            f"\n📌 **if the userbot not joined to video chat, make sure if the video chat already turned on, or you can ask Admins in @thanimaisupport.**\n"
+            f"\n⚡ __Powered by Edward elric A.I__\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -572,7 +572,7 @@ def aries_about_callback(update, context):
             f"\n6. **/video (name video) for download video."
             f"\n7. **/lyrics for searching lyrics.\n\n"
             f"\n📌 **Also you can download music or video with push button menu.**\n"
-            f"\n⚡ __Powered by Aries A.I__\n",
+            f"\n⚡ __Powered by Edward elric A.I__\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -628,10 +628,10 @@ def get_help(update, context):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Support", url=f"https://telegram.dog/SENKUCHAT"
+                            text="Support", url=f"https://telegram.dog/thanimaisupport"
                         ),
                         InlineKeyboardButton(
-                            text="Updates", url="https://telegram.dog/SENKUBOTS"
+                            text="Updates", url="https://telegram.dog/Thanimaibot"
                         ),
                     ],
                     [
@@ -899,7 +899,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@SENKUCHAT", "⚡️")
+            dispatcher.bot.sendMessage(f"thanimaisupport", " Edward elric is rowdy ⚡️")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
@@ -957,7 +957,7 @@ def main():
             client.run_until_disconnected()
 
     else:
-        LOGGER.info("Arie using long polling.")
+        LOGGER.info("Edward elric using long polling.")
         updater.start_polling(
             timeout=15,
             read_latency=4,
